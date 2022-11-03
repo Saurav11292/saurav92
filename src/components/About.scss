@@ -1,0 +1,115 @@
+@import  '../Global.scss';
+
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+.aboutcontainer {
+  background-color: rgb(67, 133, 238);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  .leftArrow{
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    left: 100px;
+
+    @include mobile{
+      display: none;
+    }
+  }
+  .rightArrow{
+    height: 50px;
+    position: absolute;
+    cursor: pointer;
+    right: 100px;
+
+    @include mobile{
+      display: none;
+    }
+  }
+
+  .slider {
+    height: 350px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    transition: all 1s ease-out;
+
+    @include mobile{
+      height: 100vh;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100vw;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      .item {
+        width: 700px;
+        height: 100%;
+        background: rgb(255, 255, 255);
+        border-radius: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        @include mobile{
+          width: 90%;
+          height: 180px;
+          margin: 5px 0px;
+        }
+
+        .left {
+          flex: 4;
+          height: 100%;
+          background-color: rgb(62, 62, 62);
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          .leftContainer {
+            width: 90%;
+            height: 70%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+             
+            .imgContainer{
+              color: rgb(255, 255, 255);
+              font-size: 1rem;
+              font-weight: bold;
+              @include mobile{
+                font-size: 7px;
+              }
+              p{
+                font-weight: 500;
+                font-size: 14px;
+                padding-top: 30px;
+              }
+             }
+          }
+        }
+        .right {
+          flex: 8;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+
+          img{
+            width: 430px;
+            transform: rotate(-10deg);
+          }
+        }
+      }
+    }
+  }
+}

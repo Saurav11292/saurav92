@@ -1,0 +1,19 @@
+@import "../Global.scss";
+
+.list {
+  font-size: 14px;
+  margin-right: 50px;
+  padding: 20px;
+  cursor: pointer;
+
+  @include mobile {
+    margin-right: 20px;
+  }
+
+  &.active {
+    background-color: $myColor;
+    color: $mainColor;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,86 @@
+@import "../Global.scss";
+@import "./list.scss";
+
+* {
+  margin: 0%;
+  padding: 0%;
+}
+.servicescontainer {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+  ul {
+    margin: 10px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    @include mobile {
+      margin: 10px 0px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  }
+  .container {
+    width: 70%;
+    // height: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    @include mobile {
+      display: flex;
+      width: 400px;
+      height: 400px;
+    }
+
+    .item {
+      width: 200px;
+      height: 200px;
+      border-radius: 10px;
+      border: 1px solid rgb(195, 195, 195);
+      margin: 10px 20px;
+      align-items: center;
+      justify-content: centre;
+      color: white;
+      position: relative;
+      transition: all 500ms ease;
+
+      h3 {
+        position: absolute;
+        font-size: 15px;
+        padding-left: 49px;
+        padding-top: 86px;
+        color: $myColor;
+        @include mobile {
+          padding: 60px;
+        }
+      }
+      img {
+        width: 100%;
+        height: 85%;
+        object-fit: cover;
+        z-index: 1;
+      }
+
+      &:hover {
+        background: $myColor3;
+        h3 {
+          color: $myColor2;
+        }
+        img {
+          opacity: 0.2;
+          z-index: 0;
+        }
+      }
+    }
+  }
+}

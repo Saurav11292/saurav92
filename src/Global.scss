@@ -1,0 +1,13 @@
+$mainColor: hsl(0, 0%, 100%);
+$myColor:rgb(16, 16, 16);
+$myColor2: rgb(255, 255, 255);
+$myColor3: rgb(2, 2, 89);
+
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}){
+        @content
+    }
+}
