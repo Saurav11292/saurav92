@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./static/css/main.eedd95e1.css",
+    "main.js": "./static/js/main.a79e72db.js",
+    "static/js/787.aeca62f9.chunk.js": "./static/js/787.aeca62f9.chunk.js",
+    "static/media/image1.png": "./static/media/image1.661b8e7e0bb9276b6a69.png",
+    "static/media/Jan03.jpg": "./static/media/Jan03.cfcce9ee2b3c7026667f.jpg",
+    "static/media/octominds homepage.png": "./static/media/octominds homepage.16bdc0466bdf8bcda099.png",
+    "static/media/easekode.png": "./static/media/easekode.44deadc64d2014c63575.png",
+    "static/media/downarrow.png": "./static/media/downarrow.3a45a8698cb42fb08df6.png",
+    "static/media/g4auto.png": "./static/media/g4auto.38c009e471ff92044467.png",
+    "index.html": "./index.html",
+    "static/media/RightArrow.svg": "./static/media/RightArrow.b27c783b409fb1613644166bc694df53.svg",
+    "static/media/LeftArrow.svg": "./static/media/LeftArrow.03a9dc01956e3ed18d0afab910a1efd9.svg",
+    "main.eedd95e1.css.map": "./static/css/main.eedd95e1.css.map",
+    "main.a79e72db.js.map": "./static/js/main.a79e72db.js.map",
+    "787.aeca62f9.chunk.js.map": "./static/js/787.aeca62f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eedd95e1.css",
+    "static/js/main.a79e72db.js"
+  ]
+}
