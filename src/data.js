@@ -10,6 +10,11 @@ export const webServices = [
     title: "Easekode",
     link: "https://www.figma.com/proto/9CRvdUgFdzqaxaF5tmeJQ5/easekode?node-id=95%3A2111&scaling=min-zoom&page-id=95%3A2110&starting-point-node-id=95%3A2111",
   },
+  {
+    id: 3,
+    title: "Netflix-clone",
+    link: "https://jetflix-3ecf8.web.app/",
+  },
 ];
 export const mobileServices = [
     {

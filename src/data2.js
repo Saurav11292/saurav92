@@ -12,9 +12,15 @@ export const aboutMe = [
       "After I left Octominds I moved to Bangalore and got a job in a company called REFIXD where I havebeen working for past 2 months. My first project was mobile app for G4Auto.",
   },
   {
-    id: 2,
+    id: 3,
     title: "EASEKODE",
     description:
       "Right now Iam working on a a project called Easekode which provide bootcamp and online cources for developers",
+  },
+  {
+    id: 4,
+    title: "Netflix-clone",
+    description:
+      "This is a Netfix clone I created with REACT JS",
   },
 ];

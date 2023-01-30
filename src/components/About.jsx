@@ -34,6 +34,12 @@ export default function About() {
       description:
         "Right now Iam working on a a project called Easekode which provide bootcamp and online cources for developers.",
     },
+    {
+    id: 4,
+    title: "Netflix-clone",
+    description:
+      "This is a Netfix clone I created with REACT JS",
+  },
   ];
   const handleClick = (direction) => {
     direction === "left" ? setCurrentSlide(currentSlide > 0 ? currentSlide - 1 : 2)
